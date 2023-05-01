@@ -12,7 +12,7 @@ This approach uses a SubViewport to contain any textures that want to glow.
 
 The game world nodes need to place a texture into the Subviewport and then use a RemoteTransform2D to keep it aligned.
 
-PROBLEM
+## PROBLEM
 
 Currently if one glowed sprite is behind another glowed sprite, the glow will not be clipped.
 
@@ -20,6 +20,6 @@ Looking for solution!
 
 If solution found, then we can proceed with better glow effect.
 
-WHY NOT WAIT FOR GODOT 4.X?
+## WHY NOT WAIT FOR GODOT 4.X?
 
 This solution will probably be short-term. However, it may end up being faster than using HDR on low-end devices, or more customizable.
