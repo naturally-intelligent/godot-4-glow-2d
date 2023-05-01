@@ -2,9 +2,9 @@
 
 ![glow-screen1](https://user-images.githubusercontent.com/6783606/235449781-664cc976-30cb-4093-bbe4-560b6fbda74d.png)
 
-This is an attempt to recreate a glow effect in Godot 4's 2D Compatibility Mode.
+This is an attempt to recreate a glow effect in Godot 4's 2D (specifically Compatibility Mode but Vulkan also applies).
 
-We are trying to get a similar effect to Glow in Godot 3, so we use the shader from that:
+We are trying to get a similar effect to Glow in Godot 3, so we use some shader code from that:
 https://github.com/godotengine/godot/blob/3.5/drivers/gles3/shaders/effect_blur.glsl
 
 This approach uses a SubViewport to contain any textures that want to glow.
@@ -13,7 +13,7 @@ The game world nodes need to place a texture into the Subviewport and then use a
 
 ## PROBLEM
 
-Currently if one glowed sprite is behind another glowed sprite, the glow will not be clipped.
+Currently if one glowed sprite is behind another sprite, the glow will not be clipped.
 
 Looking for solution!
 
