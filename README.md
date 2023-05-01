@@ -1,6 +1,8 @@
 # godot-4-glow-2d
 Godot 4 3 2D Glow
 
+![glow-screen1](https://user-images.githubusercontent.com/6783606/235449781-664cc976-30cb-4093-bbe4-560b6fbda74d.png)
+
 This is an attempt to recreate a glow effect in Godot 4's 2D Compatibility Mode.
 
 We are trying to get a similar effect to Glow in Godot 3, so we use the shader from that:
