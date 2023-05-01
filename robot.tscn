@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://d07cihh8eb8st"]
+
+[ext_resource type="Texture2D" uid="uid://bp2i4yhwjihmg" path="res://icon-color.png" id="1_ugq3q"]
+[ext_resource type="Texture2D" uid="uid://c6erg1h75f4ff" path="res://icon-eyes.png" id="2_kogs5"]
+[ext_resource type="Texture2D" uid="uid://cjiupv1ioxyvr" path="res://icon-mouth.png" id="3_3clsq"]
+[ext_resource type="Texture2D" uid="uid://ci8150il4wqle" path="res://icon-nose.png" id="4_1iqwx"]
+
+[node name="Robot" type="Sprite2D"]
+texture = ExtResource("1_ugq3q")
+
+[node name="Mouth" type="Sprite2D" parent="."]
+modulate = Color(0.0862745, 1, 0.0705882, 1)
+texture = ExtResource("3_3clsq")
+
+[node name="Eyes" type="Sprite2D" parent="."]
+modulate = Color(0.14902, 1, 0.913725, 1)
+texture = ExtResource("2_kogs5")
+
+[node name="Nose" type="Sprite2D" parent="."]
+modulate = Color(1, 0.0901961, 0.819608, 1)
+texture = ExtResource("4_1iqwx")
